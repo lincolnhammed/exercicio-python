@@ -1,0 +1,30 @@
+visual studio 
+
+#Inicializando o Repositório Git
+git init
+
+#Adicionar e comitar os arquivos
+git add .
+git commit -m "Initial commit"
+
+#Vincular ao repositório do GitHub
+git remote add origin https://github.com/lincolnhammed/exercicio-python.git
+
+#Renomeando o Branch para "main":
+git branch -M main
+
+#Enviando o Código para o GitHub (Push):
+git push -u origin main
+
+
+
+🔄 Próximos commits
+Após modificar ou adicionar arquivos:
+#Adicionar Arquivos Modificados ao Índice (Staging Area):
+git add .
+
+#Criar um Commit com as Modificações:
+git commit -m "sua mensagem"
+
+#Enviar as Alterações para o Repositório Remoto:
+git push
